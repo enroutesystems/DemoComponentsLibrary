@@ -15,9 +15,7 @@ function App() {
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <ReactLogo style={{
-            maxWidth: '12'
-          }}/>
+          <ReactLogo />
         </a>
       </div>
       <h1>Vite + React</h1>
