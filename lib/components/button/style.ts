@@ -1,4 +1,4 @@
-import { css } from '../../../styled-system/css';
+import { css } from '../../styled-system/css';
 
 export type Size = 's' | 'm' | 'l';
 
@@ -7,11 +7,12 @@ export function getStyle({ size = 's' }: {
 }) {
 
     return css({
-        fontSize: '2xl',
+        fontSize: 'm',
         fontWeight: 'bold',
-        padding: 2,
         appearance: 'button',
         backgroundColor: 'blue.300',
-        borderRadius: '2xl'
+        borderRadius: '2xl',
+        width: size,
+        padding: '2'
     });
 };

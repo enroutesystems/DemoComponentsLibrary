@@ -5,7 +5,7 @@ export default defineConfig({
   preflight: true,
 
   // Where to look for your css declarations
-  include: ["./lib/components/**/*.{ts,tsx}"],
+  include: ["./lib/components/**/*.{ts,tsx}","./lib/svgs/**/*.{ts,tsx}"],
 
   // Files to exclude
   exclude: [],

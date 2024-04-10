@@ -1,0 +1,1 @@
+export { ReactLogo } from './svgs/react-logo'
